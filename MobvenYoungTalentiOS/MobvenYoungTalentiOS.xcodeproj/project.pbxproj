@@ -1,0 +1,905 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0CA84E242BD78695003CB9F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA84E232BD78695003CB9F3 /* AppDelegate.swift */; };
+		0CA84E262BD78695003CB9F3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA84E252BD78695003CB9F3 /* SceneDelegate.swift */; };
+		0CA84E282BD78695003CB9F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA84E272BD78695003CB9F3 /* ViewController.swift */; };
+		0CA84E2B2BD78695003CB9F3 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 0CA84E2A2BD78695003CB9F3 /* Base */; };
+		0CA84E2D2BD78697003CB9F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CA84E2C2BD78697003CB9F3 /* Assets.xcassets */; };
+		0CA84E302BD78697003CB9F3 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 0CA84E2F2BD78697003CB9F3 /* Base */; };
+		0CA84E3B2BD78698003CB9F3 /* MobvenYoungTalentiOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA84E3A2BD78698003CB9F3 /* MobvenYoungTalentiOSTests.swift */; };
+		0CA84E452BD78698003CB9F3 /* MobvenYoungTalentiOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA84E442BD78698003CB9F3 /* MobvenYoungTalentiOSUITests.swift */; };
+		0CA84E472BD78698003CB9F3 /* MobvenYoungTalentiOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA84E462BD78698003CB9F3 /* MobvenYoungTalentiOSUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0CA84E372BD78698003CB9F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0CA84E182BD78695003CB9F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0CA84E1F2BD78695003CB9F3;
+			remoteInfo = MobvenYoungTalentiOS;
+		};
+		0CA84E412BD78698003CB9F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0CA84E182BD78695003CB9F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0CA84E1F2BD78695003CB9F3;
+			remoteInfo = MobvenYoungTalentiOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0CA84E202BD78695003CB9F3 /* MobvenYoungTalentiOSDev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobvenYoungTalentiOSDev.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CA84E232BD78695003CB9F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0CA84E252BD78695003CB9F3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0CA84E272BD78695003CB9F3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0CA84E2A2BD78695003CB9F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0CA84E2C2BD78697003CB9F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0CA84E2F2BD78697003CB9F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0CA84E312BD78697003CB9F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CA84E362BD78698003CB9F3 /* MobvenYoungTalentiOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MobvenYoungTalentiOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CA84E3A2BD78698003CB9F3 /* MobvenYoungTalentiOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobvenYoungTalentiOSTests.swift; sourceTree = "<group>"; };
+		0CA84E402BD78698003CB9F3 /* MobvenYoungTalentiOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MobvenYoungTalentiOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CA84E442BD78698003CB9F3 /* MobvenYoungTalentiOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobvenYoungTalentiOSUITests.swift; sourceTree = "<group>"; };
+		0CA84E462BD78698003CB9F3 /* MobvenYoungTalentiOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobvenYoungTalentiOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0CA84E542BD78A7F003CB9F3 /* Development.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Development.xcconfig; sourceTree = "<group>"; };
+		0CA84E552BD78AD2003CB9F3 /* Production.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Production.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0CA84E1D2BD78695003CB9F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CA84E332BD78698003CB9F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CA84E3D2BD78698003CB9F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0CA84E172BD78695003CB9F3 = {
+			isa = PBXGroup;
+			children = (
+				0CA84E532BD78951003CB9F3 /* Configuration */,
+				0CA84E222BD78695003CB9F3 /* MobvenYoungTalentiOS */,
+				0CA84E392BD78698003CB9F3 /* MobvenYoungTalentiOSTests */,
+				0CA84E432BD78698003CB9F3 /* MobvenYoungTalentiOSUITests */,
+				0CA84E212BD78695003CB9F3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0CA84E212BD78695003CB9F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0CA84E202BD78695003CB9F3 /* MobvenYoungTalentiOSDev.app */,
+				0CA84E362BD78698003CB9F3 /* MobvenYoungTalentiOSTests.xctest */,
+				0CA84E402BD78698003CB9F3 /* MobvenYoungTalentiOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0CA84E222BD78695003CB9F3 /* MobvenYoungTalentiOS */ = {
+			isa = PBXGroup;
+			children = (
+				0CA84E232BD78695003CB9F3 /* AppDelegate.swift */,
+				0CA84E252BD78695003CB9F3 /* SceneDelegate.swift */,
+				0CA84E272BD78695003CB9F3 /* ViewController.swift */,
+				0CA84E292BD78695003CB9F3 /* Main.storyboard */,
+				0CA84E2C2BD78697003CB9F3 /* Assets.xcassets */,
+				0CA84E2E2BD78697003CB9F3 /* LaunchScreen.storyboard */,
+				0CA84E312BD78697003CB9F3 /* Info.plist */,
+			);
+			path = MobvenYoungTalentiOS;
+			sourceTree = "<group>";
+		};
+		0CA84E392BD78698003CB9F3 /* MobvenYoungTalentiOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				0CA84E3A2BD78698003CB9F3 /* MobvenYoungTalentiOSTests.swift */,
+			);
+			path = MobvenYoungTalentiOSTests;
+			sourceTree = "<group>";
+		};
+		0CA84E432BD78698003CB9F3 /* MobvenYoungTalentiOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0CA84E442BD78698003CB9F3 /* MobvenYoungTalentiOSUITests.swift */,
+				0CA84E462BD78698003CB9F3 /* MobvenYoungTalentiOSUITestsLaunchTests.swift */,
+			);
+			path = MobvenYoungTalentiOSUITests;
+			sourceTree = "<group>";
+		};
+		0CA84E532BD78951003CB9F3 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				0CA84E542BD78A7F003CB9F3 /* Development.xcconfig */,
+				0CA84E552BD78AD2003CB9F3 /* Production.xcconfig */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0CA84E1F2BD78695003CB9F3 /* MobvenYoungTalentiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CA84E4A2BD78698003CB9F3 /* Build configuration list for PBXNativeTarget "MobvenYoungTalentiOS" */;
+			buildPhases = (
+				0CA84E1C2BD78695003CB9F3 /* Sources */,
+				0CA84E1D2BD78695003CB9F3 /* Frameworks */,
+				0CA84E1E2BD78695003CB9F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MobvenYoungTalentiOS;
+			productName = MobvenYoungTalentiOS;
+			productReference = 0CA84E202BD78695003CB9F3 /* MobvenYoungTalentiOSDev.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0CA84E352BD78698003CB9F3 /* MobvenYoungTalentiOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CA84E4D2BD78698003CB9F3 /* Build configuration list for PBXNativeTarget "MobvenYoungTalentiOSTests" */;
+			buildPhases = (
+				0CA84E322BD78698003CB9F3 /* Sources */,
+				0CA84E332BD78698003CB9F3 /* Frameworks */,
+				0CA84E342BD78698003CB9F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0CA84E382BD78698003CB9F3 /* PBXTargetDependency */,
+			);
+			name = MobvenYoungTalentiOSTests;
+			productName = MobvenYoungTalentiOSTests;
+			productReference = 0CA84E362BD78698003CB9F3 /* MobvenYoungTalentiOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0CA84E3F2BD78698003CB9F3 /* MobvenYoungTalentiOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CA84E502BD78698003CB9F3 /* Build configuration list for PBXNativeTarget "MobvenYoungTalentiOSUITests" */;
+			buildPhases = (
+				0CA84E3C2BD78698003CB9F3 /* Sources */,
+				0CA84E3D2BD78698003CB9F3 /* Frameworks */,
+				0CA84E3E2BD78698003CB9F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0CA84E422BD78698003CB9F3 /* PBXTargetDependency */,
+			);
+			name = MobvenYoungTalentiOSUITests;
+			productName = MobvenYoungTalentiOSUITests;
+			productReference = 0CA84E402BD78698003CB9F3 /* MobvenYoungTalentiOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0CA84E182BD78695003CB9F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					0CA84E1F2BD78695003CB9F3 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					0CA84E352BD78698003CB9F3 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 0CA84E1F2BD78695003CB9F3;
+					};
+					0CA84E3F2BD78698003CB9F3 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 0CA84E1F2BD78695003CB9F3;
+					};
+				};
+			};
+			buildConfigurationList = 0CA84E1B2BD78695003CB9F3 /* Build configuration list for PBXProject "MobvenYoungTalentiOS" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0CA84E172BD78695003CB9F3;
+			productRefGroup = 0CA84E212BD78695003CB9F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0CA84E1F2BD78695003CB9F3 /* MobvenYoungTalentiOS */,
+				0CA84E352BD78698003CB9F3 /* MobvenYoungTalentiOSTests */,
+				0CA84E3F2BD78698003CB9F3 /* MobvenYoungTalentiOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0CA84E1E2BD78695003CB9F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CA84E2D2BD78697003CB9F3 /* Assets.xcassets in Resources */,
+				0CA84E302BD78697003CB9F3 /* Base in Resources */,
+				0CA84E2B2BD78695003CB9F3 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CA84E342BD78698003CB9F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CA84E3E2BD78698003CB9F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0CA84E1C2BD78695003CB9F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CA84E282BD78695003CB9F3 /* ViewController.swift in Sources */,
+				0CA84E242BD78695003CB9F3 /* AppDelegate.swift in Sources */,
+				0CA84E262BD78695003CB9F3 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CA84E322BD78698003CB9F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CA84E3B2BD78698003CB9F3 /* MobvenYoungTalentiOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CA84E3C2BD78698003CB9F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CA84E472BD78698003CB9F3 /* MobvenYoungTalentiOSUITestsLaunchTests.swift in Sources */,
+				0CA84E452BD78698003CB9F3 /* MobvenYoungTalentiOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0CA84E382BD78698003CB9F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0CA84E1F2BD78695003CB9F3 /* MobvenYoungTalentiOS */;
+			targetProxy = 0CA84E372BD78698003CB9F3 /* PBXContainerItemProxy */;
+		};
+		0CA84E422BD78698003CB9F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0CA84E1F2BD78695003CB9F3 /* MobvenYoungTalentiOS */;
+			targetProxy = 0CA84E412BD78698003CB9F3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0CA84E292BD78695003CB9F3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0CA84E2A2BD78695003CB9F3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0CA84E2E2BD78697003CB9F3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0CA84E2F2BD78697003CB9F3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0CA84E482BD78698003CB9F3 /* DevelopmentDebug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CA84E542BD78A7F003CB9F3 /* Development.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = DevelopmentDebug;
+		};
+		0CA84E492BD78698003CB9F3 /* DevelopmentRelease */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CA84E542BD78A7F003CB9F3 /* Development.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = DevelopmentRelease;
+		};
+		0CA84E4B2BD78698003CB9F3 /* DevelopmentDebug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CA84E542BD78A7F003CB9F3 /* Development.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R8Q87S4Z8T;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MobvenYoungTalentiOS/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_ID)";
+				PRODUCT_NAME = "$(APP_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = DevelopmentDebug;
+		};
+		0CA84E4C2BD78698003CB9F3 /* DevelopmentRelease */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CA84E542BD78A7F003CB9F3 /* Development.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R8Q87S4Z8T;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MobvenYoungTalentiOS/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_ID)";
+				PRODUCT_NAME = "$(APP_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = DevelopmentRelease;
+		};
+		0CA84E4E2BD78698003CB9F3 /* DevelopmentDebug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CA84E542BD78A7F003CB9F3 /* Development.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R8Q87S4Z8T;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.baristemiz.MobvenYoungTalentiOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MobvenYoungTalentiOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MobvenYoungTalentiOS";
+			};
+			name = DevelopmentDebug;
+		};
+		0CA84E4F2BD78698003CB9F3 /* DevelopmentRelease */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CA84E542BD78A7F003CB9F3 /* Development.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R8Q87S4Z8T;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.baristemiz.MobvenYoungTalentiOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MobvenYoungTalentiOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MobvenYoungTalentiOS";
+			};
+			name = DevelopmentRelease;
+		};
+		0CA84E512BD78698003CB9F3 /* DevelopmentDebug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CA84E542BD78A7F003CB9F3 /* Development.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R8Q87S4Z8T;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.baristemiz.MobvenYoungTalentiOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MobvenYoungTalentiOS;
+			};
+			name = DevelopmentDebug;
+		};
+		0CA84E522BD78698003CB9F3 /* DevelopmentRelease */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CA84E542BD78A7F003CB9F3 /* Development.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R8Q87S4Z8T;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.baristemiz.MobvenYoungTalentiOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MobvenYoungTalentiOS;
+			};
+			name = DevelopmentRelease;
+		};
+		0CA84E562BD78D25003CB9F3 /* ProductionDebug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CA84E552BD78AD2003CB9F3 /* Production.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = ProductionDebug;
+		};
+		0CA84E572BD78D25003CB9F3 /* ProductionDebug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CA84E552BD78AD2003CB9F3 /* Production.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R8Q87S4Z8T;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MobvenYoungTalentiOS/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_ID)";
+				PRODUCT_NAME = "$(APP_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = ProductionDebug;
+		};
+		0CA84E582BD78D25003CB9F3 /* ProductionDebug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CA84E552BD78AD2003CB9F3 /* Production.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R8Q87S4Z8T;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.baristemiz.MobvenYoungTalentiOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MobvenYoungTalentiOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MobvenYoungTalentiOS";
+			};
+			name = ProductionDebug;
+		};
+		0CA84E592BD78D25003CB9F3 /* ProductionDebug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CA84E552BD78AD2003CB9F3 /* Production.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R8Q87S4Z8T;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.baristemiz.MobvenYoungTalentiOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MobvenYoungTalentiOS;
+			};
+			name = ProductionDebug;
+		};
+		0CA84E5A2BD78D28003CB9F3 /* ProductionRelease */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CA84E552BD78AD2003CB9F3 /* Production.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = ProductionRelease;
+		};
+		0CA84E5B2BD78D28003CB9F3 /* ProductionRelease */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CA84E552BD78AD2003CB9F3 /* Production.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R8Q87S4Z8T;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MobvenYoungTalentiOS/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_ID)";
+				PRODUCT_NAME = "$(APP_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = ProductionRelease;
+		};
+		0CA84E5C2BD78D28003CB9F3 /* ProductionRelease */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CA84E552BD78AD2003CB9F3 /* Production.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R8Q87S4Z8T;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.baristemiz.MobvenYoungTalentiOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MobvenYoungTalentiOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MobvenYoungTalentiOS";
+			};
+			name = ProductionRelease;
+		};
+		0CA84E5D2BD78D28003CB9F3 /* ProductionRelease */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CA84E552BD78AD2003CB9F3 /* Production.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R8Q87S4Z8T;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.baristemiz.MobvenYoungTalentiOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MobvenYoungTalentiOS;
+			};
+			name = ProductionRelease;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0CA84E1B2BD78695003CB9F3 /* Build configuration list for PBXProject "MobvenYoungTalentiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CA84E482BD78698003CB9F3 /* DevelopmentDebug */,
+				0CA84E562BD78D25003CB9F3 /* ProductionDebug */,
+				0CA84E492BD78698003CB9F3 /* DevelopmentRelease */,
+				0CA84E5A2BD78D28003CB9F3 /* ProductionRelease */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = DevelopmentRelease;
+		};
+		0CA84E4A2BD78698003CB9F3 /* Build configuration list for PBXNativeTarget "MobvenYoungTalentiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CA84E4B2BD78698003CB9F3 /* DevelopmentDebug */,
+				0CA84E572BD78D25003CB9F3 /* ProductionDebug */,
+				0CA84E4C2BD78698003CB9F3 /* DevelopmentRelease */,
+				0CA84E5B2BD78D28003CB9F3 /* ProductionRelease */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = DevelopmentRelease;
+		};
+		0CA84E4D2BD78698003CB9F3 /* Build configuration list for PBXNativeTarget "MobvenYoungTalentiOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CA84E4E2BD78698003CB9F3 /* DevelopmentDebug */,
+				0CA84E582BD78D25003CB9F3 /* ProductionDebug */,
+				0CA84E4F2BD78698003CB9F3 /* DevelopmentRelease */,
+				0CA84E5C2BD78D28003CB9F3 /* ProductionRelease */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = DevelopmentRelease;
+		};
+		0CA84E502BD78698003CB9F3 /* Build configuration list for PBXNativeTarget "MobvenYoungTalentiOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CA84E512BD78698003CB9F3 /* DevelopmentDebug */,
+				0CA84E592BD78D25003CB9F3 /* ProductionDebug */,
+				0CA84E522BD78698003CB9F3 /* DevelopmentRelease */,
+				0CA84E5D2BD78D28003CB9F3 /* ProductionRelease */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = DevelopmentRelease;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0CA84E182BD78695003CB9F3 /* Project object */;
+}
